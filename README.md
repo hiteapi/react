@@ -1,2 +1,2 @@
 # react
-HITE API for React
+HITE API and React
