@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const fakeData = JSON.parse(fs.readFileSync('/Users/landlessness/Documents/git/hiteapi/fixtures/hello_world.json'));
-      
+const fakeData = JSON.parse(fs.readFileSync(require('path').resolve(__dirname, 'fixtures/hello_world.json'), 'UTF-8'));
+
 export default async () => {
   return await new Promise(resolve => {
     resolve(fakeData);
