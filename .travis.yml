@@ -1,4 +1,4 @@
 before_install:
   - npm i -g npm@6.5.0
-  - git submodule update --remote src/apis/__mocks__/fixtures
+  - git submodule update --remote --merge src/apis/__mocks__/fixtures
 language: node_js
